@@ -1,0 +1,14 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+    @import '../mobile';
+  	& {
+      .container, .head .container {
+        max-width: 560px;
+      }
+      .guarantees-item {
+        text-align: left;
+        max-width: 50%;
+      }
+	}
+}

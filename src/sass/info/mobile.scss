@@ -1,0 +1,266 @@
+& {
+  main,
+  header,
+  footer {
+    overflow: hidden;
+  }
+  .mob-btn {
+    display: block;
+    float: right;
+    margin-top: 10px;
+    svg {
+      width: 35px;
+    }
+  }
+  .menu {
+    display: none;
+    margin-top: 20px;
+    float: none;
+    text-align: center;
+    li {
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  nav.bg {
+    background: #151518;
+  }
+  .head {
+    text-align: center;
+    background-position: left;
+  }
+  .head-item {
+    margin-top: 60px;
+    margin-bottom: 0;
+    h3 {
+      font-size: 25px;
+    }
+    h1 {
+      font-size: 40px;
+      line-height: 1.2;
+    }
+  }
+  .head-point {
+    margin-bottom: 10px;
+  }
+  .head-bottom .img {
+    float: none;
+    margin: 0;
+  }
+  .order-btn {
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+  .title {
+    font-size: 25px;
+    margin-bottom: 15px;
+    br {
+      display: none;
+    }
+  }
+  .manifesto-video {
+    min-height: 46.625vw;
+    padding-bottom: 8vw;
+  }
+  .play-btn {
+    transform: translateX(-50%) translateY(-50%) scale(0.5);
+  }
+  .manifesto-video .video-title {
+    top: 0;
+    font-size: 25px;
+  }
+  .manifesto-btn {
+    font-size: 16px;
+    padding: 23px 0 20px;
+    margin: 20px auto 20px;
+  }
+  .manifesto-item {
+    padding: 20px;
+  }
+  .principles-item {
+    padding: 15px 6px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    color: #151518;
+    min-height: 406px;
+    border-radius: 8px;
+    min-height: inherit;
+    br {
+      display: none;
+    }
+  }
+  .principles-row:before,
+  .principles-row:after {
+    display: none;
+  }
+  .principles-item:nth-child(2),
+  .principles-item:nth-child(3),
+  .principles-item:nth-child(4) {
+    border-radius: 8px;
+    background-size: 200vw;
+  }
+  .principles-item_large {
+    padding: 35px 10px;
+  }
+  .principles-title {
+    margin-bottom: 20px;
+  }
+  .principles-item_large p {
+    margin-bottom: 20px;
+  }
+  .whom {
+    padding: 50px 0;
+    background-size: 560vw;
+    br {
+      display: none;
+    }
+  }
+  .whom .title {
+    letter-spacing: 0;
+  }
+  .whom-tab li {
+    width: auto;
+    margin: 0;
+    a {
+      padding: 0 45px;
+      span {
+        display: none;
+      }
+    }
+  }
+  .whom-tab li:nth-child(1) a:before,
+  .whom-tab li:nth-child(2) a:before,
+  .whom-tab li:nth-child(3) a:before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .whom-content .item .item-title {
+    background-color: #151518;
+    color: #fff;
+    font-family: Stolzl;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 25px 15px;
+    text-align: center;
+  }
+  .whom-content .item-row {
+    padding: 20px 10px;
+  }
+  .whom-content .list-ttile {
+    margin-bottom: 15px;
+  }
+  .programs {
+    padding: 50px 0 0;
+    margin-bottom: 50px;
+    background-size: auto;
+  }
+  .programs .title {
+    margin-bottom: 20px;
+  }
+  .programs-item .img img {
+    width: 100%;
+  }
+  .programs-item {
+    padding: 10px;
+    text-align: center;
+    br {
+      display: none;
+    }
+    .whom-list li {
+      text-align: left;
+    }
+  }
+  .programs-item .float-right {
+    position: static;
+  }
+  .programs-item h4 {
+    font-size: 20px;
+  }
+  .results-item h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .system-title {
+    font-size: 30px;
+    letter-spacing: 0px;
+    margin-bottom: 29px;
+    span {
+      font-size: 18px;
+    }
+  }
+  .question {
+    background-size: auto;
+  }
+  .damir_info {
+    background: url(../images/damir.png) no-repeat right;
+    padding: 35px 10px;
+    background-size: cover;
+  }
+  .video {
+    img {
+      width: 100%;
+    }
+  }
+  .reviews-item {
+    margin-bottom: 60px;
+  }
+  .packages {
+    background-size: auto;
+    padding: 50px 0;
+    br {
+      display: none;
+    }
+  }
+  .packages-subtitle {
+    font-size: 14px;
+  }
+  .packages-item {
+    padding: 53px 10px;
+  }
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .packages-item h4 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .packages-price {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .guarantees-item {
+    text-align: center;
+      br {
+        display: none;
+      }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    p {
+    }
+  }
+  .whom-content .item {
+    text-align: center;
+  }
+  .whom-list {
+    text-align: left;
+  }
+  .programs-item .img {
+    max-width: 100%;
+    float: none;
+  }
+  .thx-item h1 {
+    text-align: center;
+    font-size: 35px;
+    br {
+      display: none;
+    }
+  }
+  .thx {
+    background-position: left;
+  }
+}
