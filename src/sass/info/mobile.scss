@@ -155,9 +155,11 @@
     padding: 50px 0 0;
     margin-bottom: 50px;
     background-size: auto;
+    background-position: center top;
   }
   .programs .title {
     margin-bottom: 20px;
+    color: #000;
   }
   .programs-item .img img {
     width: 100%;
@@ -192,6 +194,7 @@
   }
   .question {
     background-size: auto;
+    padding-bottom: 0;
   }
   .damir_info {
     background: url(../images/damir.png) no-repeat right;
@@ -202,6 +205,9 @@
     img {
       width: 100%;
     }
+  }
+  .reviews {
+    padding: 50px 0;
   }
   .reviews-item {
     margin-bottom: 60px;
